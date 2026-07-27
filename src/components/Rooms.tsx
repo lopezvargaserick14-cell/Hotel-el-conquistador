@@ -76,7 +76,8 @@ const rooms = [
     image: '/gallery/aquarium204/1.jpeg?v=16',
     gallery: [
       '/gallery/aquarium204/1.jpeg?v=16',
-      '/gallery/aquarium204/2.jpeg?v=15'
+      '/gallery/aquarium204/2.jpeg?v=15',
+      '/gallery/aquarium204/3.jpeg?v=15'
     ],
     amenities: ['1 Cama Doble', 'TV', 'A/C'],
   }
