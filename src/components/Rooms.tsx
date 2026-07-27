@@ -1,4 +1,4 @@
-import { Wifi, Tv, Refrigerator, Wind, Utensils, BedDouble, Trees, Wine, X, Send } from 'lucide-react';
+import { Wifi, Tv, Refrigerator, Wind, Utensils, BedDouble, Trees, Wine, X, Send, Sofa, Users, Bath } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState } from 'react';
 
@@ -44,7 +44,7 @@ const rooms = [
       '/gallery/apartamento301/3.jpeg?v=15',
       '/gallery/apartamento301/4.jpeg?v=15'
     ],
-    amenities: ['2 Camas Dobles', 'TV', 'A/C', 'Minibar'],
+    amenities: ['1 Sofá', '1 Cama sencilla', 'Ocupación: 4 personas'],
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ const rooms = [
       '/gallery/acuario203/2.jpeg?v=15',
       '/gallery/acuario203/3.jpeg?v=15'
     ],
-    amenities: ['1 Cama Doble', 'TV', 'A/C'],
+    amenities: ['Ocupación: 3 personas', '1 Cama doble', '1 TV pantalla plana', '1 Sofá cama color rojo', '1 Baño privado', 'Wifi'],
   },
   {
     id: 4,
@@ -85,13 +85,18 @@ const rooms = [
 
 const getIcon = (amenity: string) => {
   const iconProps = { className: "w-4 h-4 text-cyan-500" };
-  if (amenity.includes('Cocina')) return <Utensils {...iconProps} />;
-  if (amenity.includes('Nevera')) return <Refrigerator {...iconProps} />;
-  if (amenity.includes('A/C')) return <Wind {...iconProps} />;
-  if (amenity.includes('TV')) return <Tv {...iconProps} />;
-  if (amenity.includes('Cama')) return <BedDouble {...iconProps} />;
-  if (amenity.includes('Minibar')) return <Wine {...iconProps} />;
-  if (amenity.includes('jardín')) return <Trees {...iconProps} />;
+  const lower = amenity.toLowerCase();
+  if (lower.includes('cocina')) return <Utensils {...iconProps} />;
+  if (lower.includes('nevera')) return <Refrigerator {...iconProps} />;
+  if (lower.includes('a/c')) return <Wind {...iconProps} />;
+  if (lower.includes('tv')) return <Tv {...iconProps} />;
+  if (lower.includes('cama')) return <BedDouble {...iconProps} />;
+  if (lower.includes('minibar')) return <Wine {...iconProps} />;
+  if (lower.includes('jardín')) return <Trees {...iconProps} />;
+  if (lower.includes('sofa') || lower.includes('sofá')) return <Sofa {...iconProps} />;
+  if (lower.includes('persona') || lower.includes('ocupación') || lower.includes('ocupacion')) return <Users {...iconProps} />;
+  if (lower.includes('baño') || lower.includes('bano')) return <Bath {...iconProps} />;
+  if (lower.includes('wifi')) return <Wifi {...iconProps} />;
   return <Wifi {...iconProps} />;
 };
 
