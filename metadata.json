@@ -1,0 +1,6 @@
+{
+  "name": "Hotel El Conquistador",
+  "description": "Sitio web para el Hotel El Conquistador en San Andrés Islas con sistema de reservas, galerías y catálogo de actividades de buceo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

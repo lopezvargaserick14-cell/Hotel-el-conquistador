@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Root level ignores (keeps public/ assets safe)
+/*.zip
+/*.jpeg
+/*.jpg
+/*.png
+/WhatsApp Unknown */
+/*.sh
+/*.ps1
+/*.cjs
+/patch.js
+/fix_quotes.js
+/fix_quotes.cjs
+/fix_syntax.cjs
+/fix_all.cjs
