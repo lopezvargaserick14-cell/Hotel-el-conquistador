@@ -44,7 +44,7 @@ const rooms = [
       '/gallery/apartamento301/3.jpeg?v=15',
       '/gallery/apartamento301/4.jpeg?v=15'
     ],
-    amenities: ['1 Sofá', '1 Cama sencilla', 'Ocupación: 4 personas'],
+    amenities: ['1 Sofá', '1 Cama sencilla', 'Ocupación: 4 personas', 'Wifi'],
   },
   {
     id: 3,
