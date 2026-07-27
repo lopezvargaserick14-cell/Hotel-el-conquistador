@@ -9,6 +9,7 @@ const rooms = [
     description: 'Amplio y cómodo, ideal para estancias largas. Cuenta con cocina equipada y nevera.',
     price: '$120.000 COP',
     pricingList: [
+      { persons: 5, price: '$400.000 COP' },
       { persons: 4, price: '$320.000 COP' },
       { persons: 3, price: '$240.000 COP' },
       { persons: 2, price: '$160.000 COP' },
@@ -31,7 +32,6 @@ const rooms = [
     description: 'Espacioso y cómodo, ideal para familias. Cuenta con espacios agradables para descansar.',
     price: '$120.000 COP',
     pricingList: [
-      { persons: 5, price: '$400.000 COP' },
       { persons: 4, price: '$320.000 COP' },
       { persons: 3, price: '$240.000 COP' },
       { persons: 2, price: '$160.000 COP' },
