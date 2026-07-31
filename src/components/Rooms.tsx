@@ -138,9 +138,6 @@ export default function Rooms() {
                   alt={room.name} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-slate-900">
-                  {room.price} <span className="text-xs font-normal text-slate-500">/noche</span>
-                </div>
               </div>
               
               <div className="p-6 flex-1 flex flex-col">
