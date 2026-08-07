@@ -9,10 +9,11 @@ const rooms = [
     description: 'Amplio y cómodo, ideal para estancias largas. Cuenta con cocina equipada y nevera.',
     price: '$120.000 COP',
     pricingList: [
-      { persons: 5, price: '$400.000 COP' },
-      { persons: 4, price: '$320.000 COP' },
-      { persons: 3, price: '$240.000 COP' },
-      { persons: 2, price: '$160.000 COP' },
+      { persons: 6, price: '$360.000 COP' },
+      { persons: 5, price: '$300.000 COP' },
+      { persons: 4, price: '$240.000 COP' },
+      { persons: 3, price: '$180.000 COP' },
+      { persons: 2, price: '$120.000 COP' },
       { persons: 1, price: '$120.000 COP' },
     ],
     image: '/gallery/apartamento201/1.jpeg?v=15',
@@ -32,9 +33,9 @@ const rooms = [
     description: 'Espacioso y cómodo, ideal para familias. Cuenta con espacios agradables para descansar.',
     price: '$120.000 COP',
     pricingList: [
-      { persons: 4, price: '$320.000 COP' },
-      { persons: 3, price: '$240.000 COP' },
-      { persons: 2, price: '$160.000 COP' },
+      { persons: 4, price: '$240.000 COP' },
+      { persons: 3, price: '$180.000 COP' },
+      { persons: 2, price: '$120.000 COP' },
       { persons: 1, price: '$120.000 COP' },
     ],
     image: '/gallery/apartamento301/1.jpeg?v=15',
@@ -50,11 +51,11 @@ const rooms = [
     id: 3,
     name: 'Habitación Acuario 203',
     description: 'Cómodo y acogedor, perfecto para parejas o grupos pequeños.',
-    price: '$120.000 COP',
+    price: '$100.000 COP',
     pricingList: [
-      { persons: 3, price: '$180.000 COP' },
-      { persons: 2, price: '$120.000 COP' },
-      { persons: 1, price: '$140.000 COP' },
+      { persons: 3, price: '$150.000 COP' },
+      { persons: 2, price: '$100.000 COP' },
+      { persons: 1, price: '$110.000 COP' },
     ],
     image: '/gallery/acuario203/1.jpeg?v=16',
     gallery: [
@@ -71,7 +72,6 @@ const rooms = [
     price: '$120.000 COP',
     pricingList: [
       { persons: 2, price: '$120.000 COP' },
-      { persons: 1, price: '$120.000 COP' },
     ],
     image: '/gallery/aquarium204/1.jpeg?v=16',
     gallery: [
