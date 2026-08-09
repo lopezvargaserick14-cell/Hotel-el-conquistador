@@ -21,6 +21,7 @@ export default function Navbar() {
     { name: 'Reservas', href: '#booking' },
     { name: 'Habitaciones', href: '#rooms' },
     { name: 'Buceo & Actividades', href: '#activities' },
+    { name: 'Tienda', href: '#store' },
     { name: 'Galería', href: '#gallery' },
   ];
 

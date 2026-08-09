@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Booking from './components/Booking';
 import Rooms from './components/Rooms';
 import Activities from './components/Activities';
+import Store from './components/Store';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -16,6 +17,7 @@ export default function App() {
         <Rooms />
         <Booking />
         <Activities />
+        <Store />
         <Gallery />
       </main>
       <Footer />
