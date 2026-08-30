@@ -4,6 +4,7 @@ import Booking from './components/Booking';
 import Rooms from './components/Rooms';
 import Activities from './components/Activities';
 import Store from './components/Store';
+import Nandos from './components/Nandos';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -18,6 +19,7 @@ export default function App() {
         <Booking />
         <Activities />
         <Store />
+        <Nandos />
         <Gallery />
       </main>
       <Footer />

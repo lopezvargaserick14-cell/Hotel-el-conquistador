@@ -22,6 +22,7 @@ export default function Navbar() {
     { name: 'Habitaciones', href: '#rooms' },
     { name: 'Buceo & Actividades', href: '#activities' },
     { name: 'Tienda', href: '#store' },
+    { name: "Nando's Pizza", href: '#nandos' },
     { name: 'Galería', href: '#gallery' },
   ];
 

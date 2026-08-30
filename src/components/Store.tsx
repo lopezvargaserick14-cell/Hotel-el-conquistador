@@ -7,7 +7,7 @@ export default function Store() {
       id: 1,
       title: 'Bebidas, Snacks & Recuerdos',
       description: 'Refresca tus días con bebidas heladas, deliciosos snacks y llévate hermosos souvenirs de San Andrés para recordar siempre tu visita.',
-      image: '/store/store_1.jpeg?v=1',
+      image: '/store/store_1.jpeg?v=2',
       icon: <Coffee className="w-6 h-6 text-cyan-400" />,
       features: ['Bebidas frías', 'Snacks variados', 'Souvenirs típicos']
     },
@@ -15,7 +15,7 @@ export default function Store() {
       id: 2,
       title: 'Productos de Primera Necesidad',
       description: 'Disponemos de artículos de aseo personal, papel higiénico y productos básicos indispensables para que no te falte nada durante tu estancia.',
-      image: '/store/store_2.jpeg?v=1',
+      image: '/store/store_2.jpeg?v=2',
       icon: <Package className="w-6 h-6 text-cyan-400" />,
       features: ['Artículos de aseo', 'Papel higiénico', 'Cuidado personal']
     }

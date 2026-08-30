@@ -31,6 +31,7 @@ export default function Footer() {
               <li><a href="#rooms" className="hover:text-cyan-400 transition-colors">Habitaciones</a></li>
               <li><a href="#activities" className="hover:text-cyan-400 transition-colors">Buceo & Tours</a></li>
               <li><a href="#store" className="hover:text-cyan-400 transition-colors">Tienda</a></li>
+              <li><a href="#nandos" className="hover:text-cyan-400 transition-colors">Nando's Pizza</a></li>
               <li><a href="#gallery" className="hover:text-cyan-400 transition-colors">Galería</a></li>
             </ul>
           </div>
