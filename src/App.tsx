@@ -8,6 +8,7 @@ import Nandos from './components/Nandos';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import Desserts from './components/Desserts';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Activities />
         <Store />
         <Nandos />
+        <Desserts />
         <Gallery />
       </main>
       <Footer />
